@@ -1,0 +1,18 @@
+#unique-paragraph {
+  font-style: italic;
+  color: black;
+  font-size: 18px;
+  border-top: 2px solid ; color: black; margin-top: 3px;
+}
+
+ul {
+    color: blue;  /* Specificity challenge blue rule is not primary color - it is above red color rule, so red rule wins */
+    font-size: 15px;
+    color: darkred;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.mini-headers
+{
+    text-decoration: underline;
+}
